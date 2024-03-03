@@ -1,0 +1,70 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("./Rectangle1.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+.col-2{
+    width: 50%;
+    color: white;
+
+}
+.col-2 h1{
+    font-size: 50px;
+}
+.btn{
+    /* Group 4 */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    /* gap: 1em; */
+    /* margin: 1em 4em 2em 5em; */
+    background-color: #171717;
+    color: #DA0037;
+    border: none;
+    /* width: 50%;
+    height: 10%; */
+    border-radius: 10rem;
+    font-weight: 600;
+    padding-left: 2em;
+}
+.btn img{
+   height: 4em;
+   padding-left: 4em;
+   padding-right: 1em;
+}
+.left-col{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+/* .right-col{
+    background-image: url("./student.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+} */
+.left-col > button{
+    margin-top: 1em;
+}
+.left-col > p{
+    margin-top: 2rem;
+}
